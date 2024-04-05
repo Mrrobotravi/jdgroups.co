@@ -100,21 +100,20 @@
             padding: 2cap;
         }
 
-        .googler{
+        .googler {
             height: 400px;
             width: 100%vh;
             background-color: #fff;
             margin-bottom: 50px;
             margin-top: 0;
-            
+
         }
 
-        .services{
+        .services {
             /* background-color: #000; */
             width: 100%vh;
             height: 500px;
         }
-        
     </style>
 
 
@@ -154,7 +153,8 @@
                             <a class="navbar-brand" style="color: aliceblue;" href="/"><img
                                     src="img/core-img/logopng.png" style="width: 70px;" alt="Logo"> </a>
 
-                            <span style="color: white;"> JD GROUPS <br />THE CREATIVE HAND</span>
+                            <span style="color: white;"><b> JD GROUPS </b><br /><span style="font-size: small;"> THE
+                                    CREATIVE HAND</span></span>
 
 
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -167,40 +167,21 @@
                                     <li class="nav-item active">
                                         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                                     </li>
-                                    <!-- <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="index.html">Home</a>
-                                            <a class="dropdown-item" href="about-me.html">About</a>
-                                            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                                            <a class="dropdown-item" href="blog.html">Blog</a>
-                                            <a class="dropdown-item" href="contact.html">Contact</a>
-                                            <a class="dropdown-item" href="elements.html">Elements</a>
-                                        </div>
-                                    </li> -->
+
                                     <li class="nav-item">
                                         <a class="nav-link" href="about-me.html">About</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                        <a class="nav-link" href="portfolio.html">Gallery</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link" href="blog.html">Blog</a>
-                                    </li>
+                                    </li> -->
                                     <li class="nav-item">
                                         <a class="nav-link" href="contact.html">contact</a>
                                     </li>
                                 </ul>
-                                <!-- Search Form -->
-                                <!-- <div class="header-search-form ml-auto">
-                                    <form action="#">
-                                        <input type="search" class="form-control" placeholder="Input your keyword then press enter..." id="search" name="search">
-                                        <input class="d-none" type="submit" value="submit">
-                                    </form>
-                                </div>
-                                  <div id="searchbtn">
-                                    <img src="img/core-img/search.png" alt="">
-                                </div> -->
+
                             </div>
                         </nav>
                     </div>
@@ -226,7 +207,7 @@
     </div>
     <!-- Social Sidebar Area End -->
 
-   
+
 
     <!-- About Me Area Start -->
     <div class="about-me-area mt-100 mb-0 pb-0 section_padding_100">
@@ -234,14 +215,15 @@
             <div class="row justify-content-center">
                 <div class="col-10">
                     <div class="about-me-thumb">
-                        <img src="img/bg-img/about-me.jpg" alt="">
+                        <img src="img/bg-img/about.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-10">
                     <div class="about-content mt-20 mb-20 text-center">
                         <span></span>
                         <h2>What can I tell you about Us?</h2>
-                        <p>Established in 1984, JD Groups is a renowned leader in construction specializing in tile and
+                        <p style="text-align: justify;">Established in 1984, JD Groups is a renowned leader in
+                            construction specializing in tile and
                             stone
                             installation services. Our commitment to customer satisfaction drives our innovation,
                             creating beautiful and creative
@@ -256,7 +238,7 @@
                     <div class="about-content mt-20 mb-50 text-center">
                         <span></span>
                         <h2>our services</h2>
-                        <p>
+                        <p style="text-align: justify;">
                             JD Groups Construction offers comprehensive residential, commercial, and industrial civil,
                             interior, and exterior work, specializing in top-tier tile
                             installation services. From ceramic tile floors and walls to bathroom and shower
@@ -270,97 +252,138 @@
                     </div>
                 </div>
 
-                <div class="services col-12 mt-20">
-                    <di>
-                        <details>
-                            <summary>Tile & Stone Installations</summary>
-                            <div>We specialize in tile and stone installations, offering a wide range of options for
-                                your
-                                project. Whether you're considering
-                                ceramic tile for its durability or natural stone for its timeless elegance,
-                                our experienced contractors will guide you through the selection process and provide
-                                expert
-                                installation services.</div>
-                        </details>
-                        <details>
-                            <summary>Bathroom Floor Tile</summary>
-                            <div>Enhance your bathroom with durable and beautiful tile flooring. Our selection includes
-                                options suitable for bathrooms of all
-                                sizes, providing both functionality and style.</div>
+                <div class="col-12 ">
+                    <div class="accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
 
-                        </details>
-                        <details>
-                            <summary>Tile Backsplashes</summary>
-                            <div>Transform your kitchen or bathroom with a stunning tile backsplash. Our professionals
-                                can install a variety of
-                                materials to match your aesthetic preferences.</div>
+                        <div class="panel single-accordion">
+                            <h6><a role="button" class="" aria-expanded="true" aria-controls="collapseOne"
+                                    data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Tile & Stone
+                                    Installations
+                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                </a></h6>
+                            <div id="collapseOne" class="accordion-content collapse show">
+                                <p>We specialize in tile and stone installations, offering a wide range of options for
+                                    your
+                                    project. Whether you're considering
+                                    ceramic tile for its durability or natural stone for its timeless elegance,
+                                    our experienced contractors will guide you through the selection process and provide
+                                    expert
+                                    installation services.</p>
+                            </div>
+                        </div>
 
-                        </details>
-                        <details>
-                            <summary>Wall Tile Installation</summary>
-                            <div>Add visual interest to your walls with our tile installation services. Whether it's for
-                                shower walls or accent walls,
-                                we'll ensure a seamless installation that complements your interior décor.</div>
+                        <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo"
+                                    data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">Bathroom Floor
+                                    Tile
+                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                </a>
+                            </h6>
+                            <div id="collapseTwo" class="accordion-content collapse">
+                                <p> Enhance your bathroom with durable and beautiful tile flooring. Our selection
+                                    includes
+                                    options suitable for bathrooms of all
+                                    sizes, providing both functionality and style.</p>
+                            </div>
+                        </div>
 
-                        </details>
-                        <details>
-                            <summary>Stone Installation</summary>
-                            <div>From floors to countertops, our skilled professionals handle all aspects of stone
-                                installation with precision and expertise.
-                                We offer a range of services for both residential and commercial projects
-                                .</div>
+                        <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed"
+                                    data-parent="#accordion" data-toggle="collapse" href="#collapseThree">Tile
+                                    Backsplashes
+                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                </a>
+                            </h6>
+                            <div id="collapseThree" class="accordion-content collapse">
+                                <p>Transform your kitchen or bathroom with a stunning tile backsplash. Our professionals
+                                    can install a variety of
+                                    materials to match your aesthetic preferences.</p>
+                            </div>
+                        </div>
 
-                        </details>
+                        <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" aria-expanded="true" aria-controls="collapseFour" class="collapsed"
+                                    data-parent="#accordion" data-toggle="collapse" href="#collapseFour">Wall Tile
+                                    Installation
+                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                </a>
+                            </h6>
+                            <div id="collapseFour" class="accordion-content collapse">
+                                <p>Add visual interest to your walls with our tile installation services. Whether it's
+                                    for
+                                    shower walls or accent walls,
+                                    we'll ensure a seamless installation that complements your interior décor.</p>
+                            </div>
+                        </div>
 
+                        <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" aria-expanded="true" aria-controls="collapseFive" class="collapsed"
+                                    data-parent="#accordion" data-toggle="collapse" href="#collapseFive">Stone
+                                    Installation
+                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                </a>
+                            </h6>
+                            <div id="collapseFive" class="accordion-content collapse">
+                                <p>From floors to countertops, our skilled professionals handle all aspects of stone
+                                    installation with precision and expertise.
+                                    We offer a range of services for both residential and commercial projects
+                                    .</p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
                 </div>
 
 
                 <div class="googler">
                     <div class=" col-12 mt-10 mb-10">
                         <div class="elfsight-app-0f53f1a8-6b86-4aec-b230-6a2843154bfc" data-elfsight-app-lazy></div>
-                
+
                     </div>
                 </div>
 
 
             </div>
-         
+
         </div>
     </div>
     </div>
 
- 
-     
-    
-   
-    <div class="logos ">
-         <h2 style="text-align: center;"> OUR CLIENT</h2> 
-         <br/>
+    <div class="logos pt-0 ">   
+        <h2 style="text-align: center;"> Our Clients</h2>
+        <br />
         <div class="logos-slide">
-          <img src="./logos/3m.svg" />
-          <img src="./logos/barstool-store.svg" />
-          <img src="./logos/budweiser.svg" />
-          <img src="./logos/buzzfeed.svg" />
-          <img src="./logos/forbes.svg" />
-          <img src="./logos/macys.svg" />
-          <img src="./logos/menshealth.svg" />
-          <img src="./logos/mrbeast.svg" />
-          <img src="./logos/macys.svg" />
-          <img src="./logos/menshealth.svg" />
-          <img src="./logos/mrbeast.svg" />
-          <img src="./logos/menshealth.svg" />
-          <img src="./logos/mrbeast.svg" />
+            <img style="width: 110px;height: 100px;" src="./logos/msu.png" />
+            <img style="width: 120px;height: 90px;" src="./logos/balaji.png" />
+            <img style="width: 150px;height: 100px;"  src="./logos/BRC.png" />
+            <img style="width: 190px;height: 90px;" src="./logos/relaince.png" />
+            <img style="width: 190px;height: 90px;" src="./logos/meet.png" />
+            <img style="width: 130px; height: 100px;" src="./logos/Banyan.png" />
+            <img style="width: 130px; height: 100px;" src="./logos/banyanhill.png" />
+            <img style="width: 100px; height: 100px;" src="./logos/kamlesh.png" />
+            
+            <img style="width: 110px;height: 100px;" src="./logos/msu.png" />
+            <img style="width: 120px;height: 90px;" src="./logos/balaji.png" />
+            <img style="width: 150px;height: 100px;"  src="./logos/BRC.png" />
+            <img style="width: 190px;height: 90px;" src="./logos/relaince.png" />
+            <img style="width: 190px;height: 90px;" src="./logos/meet.png" />
+            <img style="width: 130px; height: 100px;" src="./logos/Banyan.png" />
+            <img style="width: 130px; height: 100px;" src="./logos/banyanhill.png" />
+            <img style="width: 100px; height: 100px;" src="./logos/kamlesh.png" />          
         </div>
-      </div>
-  
-     
-   
+    </div>
 
-   
-   
-
-
-    
     <footer class="footer-area">
         <div class="container-fluid h-100">
             <div class="row h-100">
@@ -374,7 +397,7 @@
                                 704/B Tulsi Height Ajwa Vadodara</a>
                         </div>
 
-                        <div class="single-footer-content">
+                        <div class="single-footer-content"> 
 
 
 
@@ -398,19 +421,20 @@
             </div>
         </div>
     </footer>
-    
+
     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
     <p style="text-align: center;">Copyright &copy;
         <script>document.write(new Date().getFullYear());</script> All rights reserved | JD GROUPS <i
-            class="fa fa-heart-o" aria-hidden="true"></i> by <a href="/" target="_blank">VR WEB GENIUS</a>
+            class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://vrwebgenius.com/" target="_blank">VR WEB GENIUS</a>
     </p>
 
     <div class="forcall">
-        <a href="tel:+91932712073">
-      <img class="callimg" src="img/core-img/cal-black.png" alt="">
-             <span class="tooltiptext">Call for free Quote</span>  
+        <a href="tel:+919558425573">
+
+            <img class="callimg" src="img/core-img/cal-black.png" alt="">
+            <span class="tooltiptext">Call for free Quote</span>
         </a>
-      </div>
+    </div>
     <!-- Footer Area End -->
 
     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -433,8 +457,8 @@
 
     </script>
 
-<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-  
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+
 
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
@@ -446,9 +470,9 @@
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
- 
-    
-   
+
+
+
 
 
 </body>
