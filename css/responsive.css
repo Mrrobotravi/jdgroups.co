@@ -223,7 +223,7 @@
         margin-bottom: 0;
     }
     .footer-area {
-        position: relative;
+        position: fixed;
         height: auto;
         padding: 30px 0 15px;
         bottom: 0;
