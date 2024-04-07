@@ -441,6 +441,7 @@ img {
     line-height: 52px;
     font-size: 16px;
     min-width: 140px;
+    text-align: center;
 }
 
 .studio-btn > img {
@@ -457,7 +458,7 @@ img {
 
 .header-area {
     width: 100%;
-    height: 110px;
+    height: 80px;
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -480,7 +481,7 @@ img {
 }
 
 .header-area .main-menu .nav-link {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     color: #ffffff;
     padding: 0 25px;
@@ -553,7 +554,7 @@ img {
 /* :: 5.0 Sidebar Area CSS */
 
 .social-sidebar-area {
-    width: 120px;
+    width: 60px;
     height: 72%;
     background-color: transparent;
     position: fixed;
@@ -571,7 +572,7 @@ img {
     transform: rotate(-90deg);
     position: absolute;
     bottom: 270px;
-    left: -110px;
+    left: -150px;
     z-index: 10;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -602,7 +603,7 @@ img {
 }
 
 .message-box > a {
-    width: 120px;
+    width: 60px;
     height: 100px;
     position: absolute;
     left: 0;
@@ -639,14 +640,14 @@ img {
 }
 
 .carousel-indicators {
-    position: fixed;
+    /* position: fixed; */
     right: 0;
     bottom: 0;
     left: 0;
     width: 100%;
     height: auto;
     margin: 0;
-    z-index: 9999;
+    z-index: 50;
 }
 
 .carousel-indicators li {
@@ -796,10 +797,10 @@ img {
 /* :: 9.0 Footer Area CSS */
 
 .footer-area {
-    position: fixed;
-    z-index: 100;
+    /* position: fixed; */
+    /* z-index: 100; */
     background-color: #1d1d1d;
-    height: 80px;
+    height: 90px;
     width: 100%;
     padding: 0 35px;
     bottom: 0;
@@ -826,12 +827,12 @@ img {
 /* :: 10.0 Portfolio Area CSS */
 
 .gallery_area {
-    height: calc(100% - 380px);
+    height: calc(100% - 280px);
     width: calc(100% - 245px);
     overflow-y: scroll;
     position: fixed;
     z-index: 1;
-    top: 200px;
+    top: 150px;
     left: 185px;
     right: 60px;
     padding-right: 45px;
@@ -839,8 +840,8 @@ img {
 
 .portfolio-menu button {
     background-color: transparent;
-    font-size: 15px;
-    color: #838383;
+    font-size: 20px;
+    color: #211e1e;
     padding: 0 20px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
